@@ -15,7 +15,34 @@
   <div class="mockup-phone-camera"></div>
   <div class="mockup-phone-display text-white grid place-content-center">
     <!-- Start Account Balance -->
+     <div class="stats shadow text-white text-center">
+  <div class="stat">
+    <div class="stat-title text-white text-[25px]">Account Balance</div>
+    <div class="stat-value text-6xl">89400</div>
+  </div>
+</div>
     <!-- End Account Balance -->
+
+    <!-- Start Feature -->
+     <div>
+        <button class="btn">Add Money</button>
+        <button class="btn ml-[10px]">Cash Out</button>
+     </div>
+    <!-- End Feature -->
+
+    <!-- Add-Money Form Start -->
+     <div class="card bg-base-100 mt-[25px] w-full text-black max-w-sm shrink-0 shadow-2xl">
+      <div class="card-body">
+        <fieldset class="fieldset">
+          <label class="label">Add Money Amount</label>
+          <input type="text" class="input" placeholder="Add Money" />
+          <label class="label">Pin Number</label>
+          <input type="password" class="input" autocomplete="off" placeholder="Pin Number" />
+          <button id="btn-add-money" class="btn btn-neutral mt-4">Add Money</button>
+        </fieldset>
+      </div>
+    </div>
+    <!-- Add-Money Form End -->
   </div>
 </div>
     </main>
