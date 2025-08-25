@@ -3,4 +3,8 @@ document.getElementById("show-add-money").addEventListener('click', function(){
 });
 document.getElementById("show-cash-out").addEventListener('click', function(){
     showFormSectionById("cash-out-form");
+});
+
+document.getElementById("show-transaction").addEventListener('click', function(){
+    showFormSectionById("transaction-section")
 })
