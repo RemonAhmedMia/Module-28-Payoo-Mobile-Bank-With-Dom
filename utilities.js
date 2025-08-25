@@ -20,5 +20,10 @@ function getTextValueById(id) {
 };
 
 function showFormSectionById(id){
-    
+    document.getElementById("add-money-form").classList.add("hidden");
+    document.getElementById("cash-out-form").classList.add("hidden");
+    // ==========
+    document.getElementById(id).classList.remove("hidden");
+
+    //orthat ami gono hare sob gula k hide kore dilam tarpor jeta dhekte chai setar id to deoa ache sekhane sei button e click korle seta remove kore dibe hide option ta ar shodu setai dhekabe,baki sob hide thakbe.
 }

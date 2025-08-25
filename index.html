@@ -26,17 +26,17 @@
     <!-- Start Feature -->
      <div>
         <button id="show-add-money" class="btn">Add Money</button>
-        <button class="btn ml-[10px]">Cash Out</button>
+        <button id="show-cash-out" class="btn ml-[10px]">Cash Out</button>
         <button class="btn ml-[10px]">Transaction</button>
      </div>
     <!-- End Feature -->
 
     <!-- Add-Money Form Start -->
-     <div id="add-money-form" class="hidden card bg-base-100 mt-[25px] w-full text-black max-w-sm shrink-0 shadow-2xl">
+     <div id="add-money-form" class="card bg-base-100 mt-[25px] w-full text-black max-w-sm shrink-0 shadow-2xl">
       <div class="card-body">
         <fieldset class="fieldset">
           <label class="label">Add Money Amount</label>
-          <input id="add-cash" type="text" class="input" placeholder="Add Money" />
+          <input id="add-money" type="text" class="input" placeholder="Add Money" />
           <label class="label">Pin Number</label>
           <input id="pin-number" type="password" class="input" autocomplete="off" placeholder="Pin Number" />
           <button id="btn-add-money" class="btn btn-neutral mt-4">Add Money</button>
@@ -46,7 +46,7 @@
     <!-- Add-Money Form End -->
 
     <!-- Start Cash Out Form -->
-     <div id="cash-out-form" class="card bg-base-100 mt-[25px] w-full text-black max-w-sm shrink-0 shadow-2xl">
+     <div id="cash-out-form" class="hidden card bg-base-100 mt-[25px] w-full text-black max-w-sm shrink-0 shadow-2xl">
       <div class="card-body">
         <fieldset class="fieldset">
           <label class="label">Cash Out</label>
